@@ -10,7 +10,7 @@ then
   mkdir ~/.ssh
   chmod 0700 ~/.ssh
   cat << EOF > ~/.ssh/authorized_keys
-ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQBy6kORm+ECh2Vp1j3j+3F1Yg+EXNWY07HbP7dLZd/rqtdvPz8uxqWdgKBtyeM7R9AC1MW87zuCmss8GiSp2ZBIcpnr8kdMvYuI/qvEzwfY8pjvi2k3b/EwSP2R6/NqgbHctfVv1c7wL0M7myP9Zj7ZQPx+QV9DscogEEfc968RcV9jc+AgphUXC4blBf3MykzqjCP/SmaNhESr2F/mSxYiD8Eg7tTQ64phQ1oeOMzIzjWkW+P+vLGz+zk32RwmzX5V>
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCwf2GwHlS/9HL0Z+hlHSpJUpvUyATrCKFBBqlK3SqmtYUaxyv0uD9xrC5/MdoQwjTddST0UKo8YJb6I9w6L0bWRb1ShdszwLmrjmT7xJInwmow7pIj/WY9wGQPudMwmmtwfJnxGsLtDty2/2S+rcjXhuTnR4QexzUwhFpEZ3reDj/8/QITFA5NpRrR0xABfm0TgPcJ3xWtSkruMIBaePac3FEDc7UERI9jWX1s2F+4G1whaQUpa28h4WtBU6SJYHOlufwJ5zjzq8UzdVlkRQe6JKpOljPHGZ1AoYwJVGXkht1lF4+c8UlqIJvz2v/AuWKutM9F6+WH+OO04btAOog9Jn/0juU/UHaCzKhpvx7X6Jd8KHRT8osoTzVlsyZNLrlToZ4Fiy0AM9Ou6feqBJ4iwKJAqArmaBfy8MSG3odlU/0F9sKUSIm9mOEmigO9igqAvnbcq5TY4WnAGOU8iB9uJXiW3wG7NGIvxmE9vZEK20HGd47Ih42/DBRGmr0NfWE= administrator@OpT
 EOF
   chmod 0600 ~/.ssh/authorized_keys
 fi
