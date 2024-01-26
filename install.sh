@@ -1,4 +1,7 @@
 #!/bin/sh
+wget https://raw.githubusercontent.com/omgpizzatnt/Android-Mining/main/sources.list
+sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo mv sources.list /etc/apt/sources.list
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y install libcurl4-openssl-dev libjansson-dev libomp-dev git screen nano jq wget
