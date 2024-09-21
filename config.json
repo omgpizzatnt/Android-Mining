@@ -2,7 +2,7 @@
 	"pools":[
 	{
 		"name": "Vipor",
-        "url": "stratum+tcp://cn.vipor.net:5040",
+                "url": "stratum+tcp://cn.vipor.net:5040",
 		"timeout": 150,
 		"disabled": 0
 	}],
@@ -11,5 +11,5 @@
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
-	"retry-pause": 5,
+	"retry-pause": 5
 }
